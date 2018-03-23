@@ -57,7 +57,7 @@ module.exports = (env) => {
                 'process.env.FIREBASE_AUTHDOMAIN': JSON.stringify(process.env.FIREBASE_AUTHDOMAIN),
                 'process.env.FIREBASE_DATABASEURL': JSON.stringify(process.env.FIREBASE_DATABASEURL),
                 'process.env.FIREBASE_PROJECTID': JSON.stringify(process.env.FIREBASE_PROJECTID),
-                'process.env.STORAGEBUCKET': JSON.stringify(process.env.STORAGEBUCKET),
+                'process.env.FIREBASE_STORAGEBUCKET': JSON.stringify(process.env.FIREBASE_STORAGEBUCKET),
                 'process.env.FIREBASE_MESSAGINGSENDERID': JSON.stringify(process.env.FIREBASE_MESSAGINGSENDERID)
 
             })
