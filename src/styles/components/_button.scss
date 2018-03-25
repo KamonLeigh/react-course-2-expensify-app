@@ -1,0 +1,25 @@
+.button {
+    border-radius: 5px;
+    background-color: $medium-blue;
+    color:#fff;
+    padding:$xs-size $s-size;
+    border:none;
+    font-size:$font-large;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    display: inline-block;
+    line-height:1;
+
+}
+
+.button--link {
+    color: #fff;
+    font-weight: bold;
+    background-color: $dark-blue;
+}
+
+.button--remove {
+    @extend .button;
+    background-color: $grey;
+}
