@@ -28,12 +28,26 @@ exports[`should render edit expense correctly 1`] = `
       }
       onSubmit={[Function]}
     />
-    <button
-      className="button--remove"
-      onClick={[Function]}
+    <div
+      className="button--group"
     >
-      Remove Expense
-    </button>
+      <button
+        className="button--remove"
+        onClick={[Function]}
+      >
+        Remove Expense
+      </button>
+      <button
+        className="button--back"
+      >
+        <Link
+          replace={false}
+          to="/dashboard"
+        >
+           Back 
+        </Link>
+      </button>
+    </div>
   </div>
 </div>
 `;

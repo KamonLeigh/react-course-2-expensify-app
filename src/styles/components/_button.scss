@@ -22,4 +22,23 @@
 .button--remove {
     @extend .button;
     background-color: $grey;
+    margin-bottom: 3px;
 }
+
+.button--back {
+    @extend .button;
+    background-color:$medium-red;
+    margin-bottom: 3px;
+}
+
+.button--back a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.button--group {
+    display:flex;
+    justify-content: space-between;
+}
+   

@@ -21,6 +21,16 @@ exports[`should render AddExpensePage correctly 1`] = `
     <ExpenseForm
       onSubmit={[Function]}
     />
+    <button
+      className="button--back"
+    >
+      <Link
+        replace={false}
+        to="/dashboard"
+      >
+         Back 
+      </Link>
+    </button>
   </div>
 </div>
 `;

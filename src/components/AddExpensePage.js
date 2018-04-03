@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ExpenseFrom from './ExpenseForm';
 import { connect } from 'react-redux';
 import { startAddExpense } from '../actions/expenses';
@@ -21,8 +22,11 @@ export class AddExpensePage extends React.Component{
                 <ExpenseFrom 
                 onSubmit={this.onSubmit}
                 />
+                <button className="button--back">
+                    <Link to="/dashboard"> Back </Link>
+                </button>  
            </div>
-               
+            
         </div>
         )
     }
